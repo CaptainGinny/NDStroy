@@ -54,7 +54,7 @@
 
     &-text {
       color: rgb(242, 242, 242);
-      font-family: var(--font-accent);
+      font-family: var(--second-family);
       font-size: 18px;
       font-weight: 700;
       line-height: 120%;
@@ -69,7 +69,7 @@
 
     &-text {
       color: rgb(130, 130, 130);
-      font-family: var(--font-accent);
+      font-family: var(--second-family);
       font-size: 17px;
       font-weight: 600;
       line-height: 21px;
@@ -77,7 +77,7 @@
 
     &-time {
       color: rgb(84, 88, 81);
-      font-family: var(--font-accent);
+      font-family: var(--second-family);
       font-size: 20px;
       font-weight: 700;
       line-height: 25px;
@@ -97,7 +97,7 @@
 
     &-phone {
       color: rgb(0, 0, 0);
-      font-family: var(--font-accent);
+      font-family: var(--second-family);
       font-size: 24px;
       font-weight: 700;
       line-height: 29px;
@@ -106,7 +106,7 @@
     &-text {
       background: linear-gradient(90deg, rgb(121, 133, 111), rgb(109, 108, 102));
       background-clip: text;
-      font-family: var(--font-accent);
+      font-family: var(--second-family);
       font-size: 11px;
       font-weight: 700;
       line-height: 13px;

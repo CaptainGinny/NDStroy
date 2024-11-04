@@ -2,8 +2,8 @@
 	--container-width: 1920px;
 	--container-padding: 20px;
 
-	--font-main: 'Roboto', sans-serif;
-	--font-accent: 'Montserrat', sans-serif;
+	--font-family: 'Roboto', sans-serif;
+	--second-family: 'Montserrat', sans-serif;
 	--font-titles: var(--font-accent);
 
 	--page-bg: #fff;
@@ -15,9 +15,6 @@
   --laptop-size: 1199px;
 	--tablet-size: 959px;
 	--mobile-size: 599px;
-
-	--font-family: 'Roboto', sans-serif;
-	--second-family: 'Montserrat', sans-serif;
 }
 
 .dark {

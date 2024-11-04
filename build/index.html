@@ -18,7 +18,7 @@
     <section class="top-info">
   <div class="container">
     <div class="top-info__logo">
-      <img class="top-info__logo-img" src="./img/Frame738005289@2x.png" alt="LOGO" />
+      <img class="top-info__logo-img" src="./img/Frame738005289@1x.png" alt="LOGO" />
     </div>
     <div class="top-info__text">
       <img class="top-info__text-img" src="./img/Vector_19.png" alt="Vector" />
@@ -92,12 +92,31 @@
 
     <main><section class="main-section">
   <div class="container">
-    <div class="main-section__notification">
-      <img class="main-section__notification-icon" src="./img/icon.png" alt="Icon" />
-      <p class="main-section__notification-text">
-        Сделай репост и&#160;получи расчёт <br />
-        стоимости в&#160;подарок!
-      </p>
+    <button id="openPopupBtn">
+      <div class="main-section__notification">
+        <img class="main-section__notification-icon" src="./img/icon.png" alt="Icon" />
+        <p class="main-section__notification-text">
+          Сделай репост и&#160;получи расчёт <br />
+          стоимости в&#160;подарок!
+        </p>
+      </div>
+    </button>
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close">&#215;</span>
+        <h2 class="popup-title"><img src="./img/Repost.png" alt="Text" /></h2>
+        <p class="popup-subtext">СДЕЛАТЬ РЕПОСТ СЕЙЧАС ЧТО БЫ&#160;ПОЛУЧИТ АР&#160;ПРОЕКТА В&#160;ПОДАРОК</p>
+        <div class="popup-social">
+          <a href="#"><img src="./img/frameviber.png" alt="Viber" /></a>
+          <a href="#"><img src="./img/framewhatsapp.png" alt="WhatsApp" /></a>
+          <a href="#"><img src="./img/frametelegram.png" alt="Telegram" /></a>
+          <a href="#"><img src="./img/frameinstagram.png" alt="Instagram" /></a>
+          <a href="#"><img src="./img/framefacebook.png" alt="Facebook" /></a>
+        </div>
+        <button class="popup-button">
+          Скопировать ссылку <img src="./img/arrow1.png" alt="arrow" />
+        </button>
+      </div>
     </div>
     <div class="main-section__content-wrapper">
       <div class="main-section__content">
@@ -284,63 +303,65 @@
           <img src="./img/Vector46.svg" alt="Vector46" />
         </div>
       </div>
-            <div class="footer__menu">
-                <ul class="footer__menu-list">
-                    <li class="footer__menu-item">Главная</li>
-                    <li class="footer__menu-item">Услуги</li>
-                    <li class="footer__menu-item">Примеры работ</li>
-                    <li class="footer__menu-item">О&#160;компании</li>
-                    <li class="footer__menu-item">Сотрудничество</li>
-                    <li class="footer__menu-item">Контакты</li>
-                    <li class="footer__menu-item">Блог</li>
-    </div>
-        <div class="footer__videofeedback">
-            <div class="footer__videofeedback-title">
-                <h2>Видеоотзывы от&#160;наших довольных клиентов</h2>
-            </div>
-            <div class="footer__videofeedback-videos">
-                <div class="footer__videofeedback-video">
-                    <!-- <video src="./img/Rectangle124.png" controls></video> -->
-                    <div class="image-container">
-                        <img src="./img/Rectangle124.png" alt="Rectangle" class="image-background">
-                        <div class="image-overlay-wrapper">
-                            <img src="./img/Group1660.png" alt="Group" class="image-overlay">
-                        </div>
-                    </div>
-                </div>
-                <div class="footer__videofeedback-video">
-                    <!-- <video src="./video2.mp4" controls></video> -->
-                    <div class="image-container">
-                        <img src="./img/Rectangle125.png" alt="Rectangle" class="image-background">
-                        <div class="image-overlay-wrapper">
-                            <img src="./img/Group1660.png" alt="Group" class="image-overlay">
-                        </div>
-                    </div>
-                </div>
-                <div class="footer__videofeedback-video">
-                    <!-- <video src="./video3.mp4" controls></video> -->
-                    <div class="image-container">
-                        <img src="./img/Rectangle123.png" alt="Rectangle" class="image-background">
-                        <div class="image-overlay-wrapper">
-                            <img src="./img/Group1660.png" alt="Group" class="image-overlay">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__videofeedback-dots">
-                <span class="dot active"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </div>
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="footer__menu-item">Главная</li>
+          <li class="footer__menu-item">Услуги</li>
+          <li class="footer__menu-item">Примеры работ</li>
+          <li class="footer__menu-item">О&#160;компании</li>
+          <li class="footer__menu-item">Сотрудничество</li>
+          <li class="footer__menu-item">Контакты</li>
+          <li class="footer__menu-item">Блог</li>
+        </ul>
+      </nav>
+      <div class="footer__videofeedback">
+        <div class="footer__videofeedback-title">
+          <h2>Видеоотзывы от&#160;наших довольных клиентов</h2>
         </div>
+        <div class="footer__videofeedback-videos">
+          <div class="footer__videofeedback-video">
+            <!-- <video src="./img/Rectangle124.png" controls></video> -->
+            <div class="image-container">
+              <img src="./img/Rectangle124.png" alt="Rectangle" class="image-background" />
+              <div class="image-overlay-wrapper">
+                <img src="./img/Group1660.png" alt="Group" class="image-overlay" />
+              </div>
+            </div>
+          </div>
+          <div class="footer__videofeedback-video">
+            <!-- <video src="./video2.mp4" controls></video> -->
+            <div class="image-container">
+              <img src="./img/Rectangle125.png" alt="Rectangle" class="image-background" />
+              <div class="image-overlay-wrapper">
+                <img src="./img/Group1660.png" alt="Group" class="image-overlay" />
+              </div>
+            </div>
+          </div>
+          <div class="footer__videofeedback-video">
+            <!-- <video src="./video3.mp4" controls></video> -->
+            <div class="image-container">
+              <img src="./img/Rectangle123.png" alt="Rectangle" class="image-background" />
+              <div class="image-overlay-wrapper">
+                <img src="./img/Group1660.png" alt="Group" class="image-overlay" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__videofeedback-dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </div>
   </div>
 </footer>
  <section class="top-info">
   <div class="container">
     <div class="top-info__logo">
-      <img class="top-info__logo-img" src="./img/Frame738005289@2x.png" alt="LOGO" />
+      <img class="top-info__logo-img" src="./img/Frame738005289@1x.png" alt="LOGO" />
     </div>
     <div class="top-info__text">
       <img class="top-info__text-img" src="./img/Vector_19.png" alt="Vector" />

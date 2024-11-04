@@ -1,17 +1,36 @@
 <section class="main-section">
   <div class="container">
-    <div class="main-section__notification">
-      <img class="main-section__notification-icon" src="./../../img/icon.png" alt="Icon" />
-      <p class="main-section__notification-text">
-        Сделай репост и получи расчёт <br />
-        стоимости в подарок!
-      </p>
+    <button id="openPopupBtn">
+      <div class="main-section__notification">
+        <img class="main-section__notification-icon" src="../../img/icon.png" alt="Icon" />
+        <p class="main-section__notification-text">
+          Сделай репост и получи расчёт <br />
+          стоимости в подарок!
+        </p>
+      </div>
+    </button>
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close">&times;</span>
+        <h2 class="popup-title"><img src="../../img/Repost.png" alt="Text" /></h2>
+        <p class="popup-subtext">СДЕЛАТЬ РЕПОСТ СЕЙЧАС ЧТО БЫ ПОЛУЧИТ АР ПРОЕКТА В ПОДАРОК</p>
+        <div class="popup-social">
+          <a href="#"><img src="../../img/frameviber.png" alt="Viber" /></a>
+          <a href="#"><img src="../../img/framewhatsapp.png" alt="WhatsApp" /></a>
+          <a href="#"><img src="../../img/frametelegram.png" alt="Telegram" /></a>
+          <a href="#"><img src="../../img/frameinstagram.png" alt="Instagram" /></a>
+          <a href="#"><img src="../../img/framefacebook.png" alt="Facebook" /></a>
+        </div>
+        <button class="popup-button">
+          Скопировать ссылку <img src="../../img/arrow1.png" alt="arrow" />
+        </button>
+      </div>
     </div>
     <div class="main-section__content-wrapper">
       <div class="main-section__content">
         <img
           class="main-section__project-description"
-          src="./../../img/Построим дом по проекту КД —1 в любой точке Беларуси без срывов сроков со всеми коммуникациями под ключ.png"
+          src="../../img/Построим дом по проекту КД —1 в любой точке Беларуси без срывов сроков со всеми коммуникациями под ключ.png"
           alt="Project description"
         />
         <div class="main-section__main-banner">

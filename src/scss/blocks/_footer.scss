@@ -8,7 +8,7 @@
 
 	h1 {
 		color: rgb(157, 142, 88);
-		font-family: var(--font-accent);
+		font-family: var(--second-family);
 		font-size: 36px;
 		font-weight: 800;
 		line-height: 44px;
@@ -54,7 +54,7 @@
 		padding: 20px;
 	
 		&-text {
-			font-family: var(--font-accent);
+			font-family: var(--second-family);
 			font-size: 18px;
 			font-weight: 800;
 			line-height: 121.4%;
@@ -94,7 +94,7 @@
 		width: 159px;
 		height: 226px;
 		color: rgb(39, 40, 37);
-		font-family: var(--font-accent);
+		font-family: var(--second-family);
 		font-size: 18px;
 		font-weight: 600;
 		line-height: 22px;
@@ -118,7 +118,7 @@
 	
 		&-title {
 			color: rgb(39, 40, 37);
-			font-family: var(--font-accent);
+			font-family: var(--second-family);
 			font-size: 24px;
 			font-weight: 800;
 			line-height: 29px;
